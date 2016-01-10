@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="edj-jH-M14">
+                                <rect key="frame" x="0.0" y="0.0" width="610" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学员信息录入系统" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtA-Xt-d24">
+                                <rect key="frame" x="120" y="120" width="360" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ITg-4g-2SZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="NGS-WD-ZFg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NGS-WD-ZFg"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CtA-Xt-d24" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="2s8-8g-rqU"/>
+                            <constraint firstItem="CtA-Xt-d24" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="100" id="5y2-WF-gAB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="edj-jH-M14" secondAttribute="trailing" id="7W2-aZ-kwr"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="A5L-YR-ccc"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="BC0-yD-D9b"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="BrJ-OP-aQx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CtA-Xt-d24" secondAttribute="trailing" constant="100" id="C4y-Gu-YvF"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="edj-jH-M14" secondAttribute="bottom" id="GP7-UG-wr2"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="CtA-Xt-d24" secondAttribute="bottom" constant="8" symbolic="YES" id="a5X-n4-Wl5"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="dWJ-pt-bDr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CtA-Xt-d24" secondAttribute="trailing" constant="100" id="hf3-HV-lha"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottomMargin" id="iCV-pC-NJZ"/>
+                            <constraint firstItem="CtA-Xt-d24" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="100" id="nWr-H9-ERf"/>
+                            <constraint firstItem="edj-jH-M14" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" constant="30" id="vRh-hh-Pai"/>
+                            <constraint firstItem="CtA-Xt-d24" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="zXC-k3-UEv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7W2-aZ-kwr"/>
+                                <exclude reference="A5L-YR-ccc"/>
+                                <exclude reference="BC0-yD-D9b"/>
+                                <exclude reference="2s8-8g-rqU"/>
+                                <exclude reference="5y2-WF-gAB"/>
+                                <exclude reference="hf3-HV-lha"/>
+                                <exclude reference="GP7-UG-wr2"/>
+                                <exclude reference="a5X-n4-Wl5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="school.jpg" width="154" height="220"/>
+    </resources>
+</document>
